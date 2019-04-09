@@ -1,0 +1,178 @@
+package MM_Dto;
+
+
+public class City {
+
+   private int cityNo; //도시번호
+   private String cityName; //도시명
+   private int cityGPrice; //땅 가격
+   private int cityHPrice; //호텔 가격
+   private int cityLPrice; //랜드마크 가격
+   private int cityGX; //땅 x좌표
+   private int cityGY; //땅 y좌표
+   private int cityHX; //호텔 x좌표
+   private int cityHY; //호텔 y좌표
+   private int cityLX; //랜드마크 x좌표
+   private int cityLY; //랜드마크 y좌표
+   private boolean cityGB; //땅 소유 여부
+   private boolean cityHB; //호텔 소유 여부
+   private boolean cityLB; //랜드마크 소유 여부
+   private String cityOwner; //도시 소유주
+   private String imgPath; //이미지 경로
+   
+   public City(int cityNo, String cityName, int cityGPrice, int cityHPrice, int cityLPrice, int cityGX, int cityGY, int cityHX, int cityHY, int cityLX, int cityLY, boolean cityGB, boolean cityHB, boolean cityLB, String cityOwner, String imgPath){
+      this.cityNo = cityNo; 
+	  this.cityName = cityName;
+      this.cityGPrice = cityGPrice;
+      this.cityHPrice = cityHPrice;
+      this.cityLPrice = cityLPrice;
+      this.cityGX = cityGX;
+      this.cityGY = cityGY;
+      this.cityHX = cityHX;
+      this.cityHY = cityHY;
+      this.cityLX = cityLX;
+      this.cityLY = cityLY;
+      this.cityGB = cityGB;
+      this.cityHB = cityHB;
+      this.cityLB = cityLB;
+      this.cityOwner = cityOwner;
+      this.imgPath = imgPath;
+   }
+
+public int getCityNo() {
+	return cityNo;
+}
+
+public void setCityNo(int cityNo) {
+	this.cityNo = cityNo;
+}
+
+public String getCityName() {
+	return cityName;
+}
+
+public void setCityName(String cityName) {
+	this.cityName = cityName;
+}
+
+public int getCityGPrice() {
+	return cityGPrice;
+}
+
+public void setCityGPrice(int cityGPrice) {
+	this.cityGPrice = cityGPrice;
+}
+
+public int getCityHPrice() {
+	return cityHPrice;
+}
+
+public void setCityHPrice(int cityHPrice) {
+	this.cityHPrice = cityHPrice;
+}
+
+public int getCityLPrice() {
+	return cityLPrice;
+}
+
+public void setCityLPrice(int cityLPrice) {
+	this.cityLPrice = cityLPrice;
+}
+
+public int getCityGX() {
+	return cityGX;
+}
+
+public void setCityGX(int cityGX) {
+	this.cityGX = cityGX;
+}
+
+public int getCityGY() {
+	return cityGY;
+}
+
+public void setCityGY(int cityGY) {
+	this.cityGY = cityGY;
+}
+
+public int getCityHX() {
+	return cityHX;
+}
+
+public void setCityHX(int cityHX) {
+	this.cityHX = cityHX;
+}
+
+public int getCityHY() {
+	return cityHY;
+}
+
+public void setCityHY(int cityHY) {
+	this.cityHY = cityHY;
+}
+
+public int getCityLX() {
+	return cityLX;
+}
+
+public void setCityLX(int cityLX) {
+	this.cityLX = cityLX;
+}
+
+public int getCityLY() {
+	return cityLY;
+}
+
+public void setCityLY(int cityLY) {
+	this.cityLY = cityLY;
+}
+
+public boolean isCityGB() {
+	return cityGB;
+}
+
+public void setCityGB(boolean cityGB) {
+	this.cityGB = cityGB;
+}
+
+public boolean isCityHB() {
+	return cityHB;
+}
+
+public void setCityHB(boolean cityHB) {
+	this.cityHB = cityHB;
+}
+
+public boolean isCityLB() {
+	return cityLB;
+}
+
+public void setCityLB(boolean cityLB) {
+	this.cityLB = cityLB;
+}
+
+public String getCityOwner() {
+	return cityOwner;
+}
+
+public void setCityOwner(String cityOwner) {
+	this.cityOwner = cityOwner;
+}
+
+public String getImgPath() {
+	return imgPath;
+}
+
+public void setImgPath(String imgPath) {
+	this.imgPath = imgPath;
+}
+
+
+  
+
+ 
+   
+
+   
+   
+}
